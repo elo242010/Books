@@ -1,0 +1,73 @@
+body{
+font-family:Georgia;
+background-color:#ffd7ed;
+margin:0;
+text-align:center;
+}
+
+header{
+background-color:#f76dad;
+color:rgb(216, 216, 216);
+padding:20px;
+}
+
+nav a{
+color:rgb(255, 154, 201);
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:rgb(221, 47, 114);
+}
+
+section{
+padding:40px;
+}
+
+img{
+width:250px;
+margin:10px;
+border-radius:10px;
+box-shadow:4px 4px 10px gray;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+width:200px;
+border-radius:10px;
+box-shadow:3px 3px 8px gray;
+transition:transform 0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+ul{
+list-style-type:square;
+}
+
+table{
+margin:auto;
+border-collapse:collapse;
+}
+
+th, td{
+border:1px solid black;
+padding:10px;
+}
+
+footer{
+background:#333;
+color:white;
+padding:20px;
+}
